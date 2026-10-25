@@ -1,0 +1,12 @@
+App(
+    appid="notepad",
+    name="Notepad",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="notepad_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_icon="notepad.png",
+    fap_description="A simple notepad app to store and read notes on your Flipper Zero",
+    fap_version=(1, 0)
+)
